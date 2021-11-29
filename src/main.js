@@ -5,8 +5,8 @@ import router from './router'
 import store from './store'
 import firebase from 'firebase/compat/app'; 
 import "firebase/auth";
-
 import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyDewhwZcwmfYLgcrewgCHKfMs-XnRXk9Nc",
   authDomain: "linect-bc1f0.firebaseapp.com",
@@ -17,6 +17,7 @@ const firebaseConfig = {
   measurementId: "G-D003ZZN26B"
 };
 const app = initializeApp(firebaseConfig);
+export const firestore = getFirestore(app);
 Vue.config.productionTip = false
 
 new Vue({
