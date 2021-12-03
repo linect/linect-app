@@ -3,6 +3,7 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+<<<<<<< HEAD
 import firebase from 'firebase/compat/app'; 
 import "firebase/auth";
 import { initializeApp } from "firebase/app";
@@ -18,13 +19,21 @@ const firebaseConfig = {
 };
 const app = initializeApp(firebaseConfig);
 export const firestore = getFirestore(app);
+=======
+
+>>>>>>> fab49caa412f5746276bd67c434614a56cb178e2
 Vue.config.productionTip = false
 
 new Vue({
   router,
   store,
+<<<<<<< HEAD
   app,
   firebase,
   render: h => h(App)
 }).$mount('#app')
 
+=======
+  render: h => h(App)
+}).$mount('#app')
+>>>>>>> fab49caa412f5746276bd67c434614a56cb178e2
