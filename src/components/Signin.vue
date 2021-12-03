@@ -49,3 +49,9 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+.signup{
+  background-color: tomato;
+}
+</style>
