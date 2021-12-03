@@ -1,26 +1,32 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Signin from '@/components/Signin'
-import Signup from '@/components/Signup'
-Vue.use(VueRouter)
+import Vue from "vue";
+import VueRouter from "vue-router";
+import Signin from "@/components/Signin";
+import Signup from "@/components/Signup";
+import Firstview from "@/views/Firstview";
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'Signin',
-    component: Signin
+    path: "/",
+    name: "Firstview",
+    component: Firstview,
   },
   {
-    path: '/Signup',
-    name: 'Signup',
-    component: Signup
-  }
-]
+    path: "/Signin",
+    name: "Signin",
+    component: Signin,
+  },
+  {
+    path: "/Signup",
+    name: "Signup",
+    component: Signup,
+  },
+];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

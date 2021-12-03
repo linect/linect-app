@@ -1,0 +1,36 @@
+<svg id="コンポーネント_10_6" data-name="コンポーネント 10 – 6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135" height="130" viewBox="0 0 135 130">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_188" data-name="長方形 188" width="135" height="110" transform="translate(140 166)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <text id="Linect" transform="translate(34 128)" font-size="20" font-family="ShinMGoPr6-Medium, A-OTF Shin Maru Go Pr6" font-weight="500"><tspan x="0" y="0">Linect</tspan></text>
+  <g id="マスクグループ_92" data-name="マスクグループ 92" transform="translate(-140 -166)" clip-path="url(#clip-path)">
+    <g id="rogo__icon" data-name="rogo _icon" transform="translate(146 168)">
+      <g id="グループ_46" data-name="グループ 46" transform="translate(-498.709 -26.047)">
+        <line id="線_5" data-name="線 5" x2="12.995" transform="translate(569.93 86.975)" fill="none" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="線_6" data-name="線 6" y1="27.755" transform="translate(576.466 79.274)" fill="none" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <line id="線_7" data-name="線 7" x2="0.123" y2="22.215" transform="translate(50.48 28.025)" fill="none" stroke="#240407" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.128"/>
+      <g id="グループ_47" data-name="グループ 47" transform="translate(-498.709 -26.047)">
+        <path id="パス_8" data-name="パス 8" d="M563.229,76.352V61.82a4.888,4.888,0,0,0-4.907-4.866l-9.216,0" fill="none" stroke="#240407" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.137"/>
+      </g>
+      <g id="グループ_48" data-name="グループ 48" transform="translate(-498.709 -26.047)">
+        <path id="パス_9" data-name="パス 9" d="M556.167,92.638l-7.159-3.826a4.865,4.865,0,0,0-6.577,1.985l-4.7,8.736a4.864,4.864,0,0,0,2.006,6.605l4.6,2.438a4.867,4.867,0,0,0,6.564-2l2.71-5.048" fill="none" stroke="#240709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.128"/>
+        <path id="パス_10" data-name="パス 10" d="M546.607,93.5l7.159,3.827a4.866,4.866,0,0,0,6.578-1.985l4.7-8.737A4.865,4.865,0,0,0,563.039,80l-4.6-2.437a4.865,4.865,0,0,0-6.564,2l-2.71,5.049" fill="none" stroke="#240709" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.128"/>
+      </g>
+      <g id="グループ_49" data-name="グループ 49" transform="translate(-498.709 -26.047)">
+        <line id="線_8" data-name="線 8" x1="0.108" y2="22.43" transform="translate(542.502 54.312)" fill="none" stroke="#240407" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.128"/>
+        <path id="パス_11" data-name="パス 11" d="M542.828,47.926" fill="none" stroke="#240407" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.128"/>
+        <circle id="楕円形_2" data-name="楕円形 2" cx="2.192" cy="2.192" r="2.192" transform="translate(540.469 47.992)" fill="none" stroke="#240407" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.128"/>
+      </g>
+      <g id="グループ_50" data-name="グループ 50" transform="translate(-498.709 -26.047)">
+        <path id="パス_12" data-name="パス 12" d="M569.059,65.515l11.12.045a4.865,4.865,0,0,0,4.865-4.868h0a4.865,4.865,0,0,0-4.872-4.863l-6.246.009a4.865,4.865,0,0,0-4.858,4.86Z" fill="#efa0a5"/>
+      </g>
+      <g id="グループ_51" data-name="グループ 51" transform="translate(-498.709 -26.047)">
+        <path id="パス_13" data-name="パス 13" d="M569.578,65.641h10.576a4.864,4.864,0,0,0,4.865-4.867h0a4.865,4.865,0,0,0-4.872-4.863l-6.247.009a4.866,4.866,0,0,0-4.858,4.86l-.011,9.922a4.865,4.865,0,0,0,4.89,4.87l6.207-.032a4.865,4.865,0,0,0,4.84-4.865v-.728" fill="none" stroke="#240407" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.137"/>
+      </g>
+      <path id="パス_14" data-name="パス 14" d="M568.347,132.439c6.754-2.384,40.622-16.095,49.375-44.5,5.072-16.464,6.063-36.09-1.706-49.006-9.449-15.71-37.778-17.46-45.492-1.578a63.724,63.724,0,0,0-3.63,11.118s-.131-7.694-2.042-11.118c-9.757-17.47-41.522-13.159-50.144,2.5-3.435,6.238-5.018,11.727-3.857,20.875,1.5,11.8,12.213,14.068,15.1,5.6,3.167-9.29-6.713-17.461-8.057,3.533-1.184,18.488,8.8,42.865-1.791,48.6-6.952,3.765-17.09-.869-17.38-8.11-.394-9.864,7.387-12.865,13.614-10.428,13.324,5.214,16.892,20.247,28.811,25.157,11,4.532,24.384,1.443,38.968-8.647" transform="translate(-498.709 -26.047)" fill="none" stroke="#e14a4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
