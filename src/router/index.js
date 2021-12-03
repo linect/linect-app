@@ -1,14 +1,25 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import HelloWorld from "../components/HelloWorld.vue";
-
+import Signin from "@/components/Signin";
+import Signup from "@/components/Signup";
+import QuestionIndex from "@/views/questions/QuestionIndex";
 Vue.use(VueRouter);
 
 const routes = [
 	{
 		path: "/",
-		name: "HelloWorld",
-		component: HelloWorld,
+		name: "Signin",
+		component: Signin,
+	},
+	{
+		path: "/Signup",
+		name: "Signup",
+		component: Signup,
+	},
+	{
+		path: "/QuestionIndex",
+		name: "QuestionIndex",
+		component: QuestionIndex,
 	},
 ];
 
