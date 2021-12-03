@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Signin from '@/components/Signin'
 import Signup from '@/components/Signup'
+import QuestionIndex from '@/views/questions/QuestionIndex'
 Vue.use(VueRouter)
 
 const routes = [
@@ -14,7 +15,12 @@ const routes = [
     path: '/Signup',
     name: 'Signup',
     component: Signup
-  }
+  },
+  {
+    path: '/QuestionIndex',
+    name: 'QuestionIndex',
+    component: QuestionIndex
+  },
 ]
 
 const router = new VueRouter({
