@@ -27,3 +27,4 @@ new Vue({
   firebase,
   render: h => h(App)
 }).$mount('#app')
+

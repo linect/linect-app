@@ -21,16 +21,10 @@
           <td><input type="password" v-model="repassword"/></td>
         </tr>
         <tr>
-          <th>パスワード確認：</th>
+          <th>ユーザー名</th>
         </tr>
         <tr>
-          <td><input type="password" v-model="repassword"/></td>
-        </tr>
-        <tr>
-          <th>メールアドレス：</th>
-        </tr>
-        <tr>
-          <td><input type="email" v-model="email"/></td>
+          <td><input type="text" v-model="username"/></td>
         </tr>
     </table>
     <button @click="signUp">登録</button>
@@ -48,6 +42,7 @@ export default {
       email: '',
       password: '',
       repassword: '',
+      username: '',
       }
   },
   methods: {
@@ -58,11 +53,10 @@ export default {
           .then((userCredential)=>{
             const user = userCredential.user;
             const docRef = addDoc(collection(firestore, "users"), {
-              first: "",
-              last: "",
+              user: this.username,
             });
-            console.log(user, "成功");
-             console.log("Document written with ID: ", docRef.id);
+            console.log("Document written with ID: ", docRef.id, user, "成功しました");
+            // window.location.href = '';
           })
         .catch((error)=>{
           const errorCode = error.code;
