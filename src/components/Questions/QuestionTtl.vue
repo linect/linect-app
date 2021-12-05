@@ -1,13 +1,13 @@
 <template>
 	<main>
-		<div class="main">
-			<h1 class="main__ttl">次の質問にお答えください</h1>
+		<div class="bottom-container">
+			<h1 class="bottom-container__ttl">次の質問にお答えください</h1>
 		</div>
 	</main>
 </template>
 
 <style lang="scss" scoped>
-.main {
+.bottom-container {
 	background-color: #fff;
 	height: 50vh;
 	display: flex;
