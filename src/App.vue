@@ -5,3 +5,7 @@
     <router-view/>
   </div>
 </template>
+
+<style lang="scss">
+@import '@/sass/ress.scss';
+</style>

@@ -1,20 +1,16 @@
 <template>
   <div class="signup">
     <h1>ログイン</h1>
-    <table>
-        <tr>
-          <th>メールアドレス：</th>
-        </tr>
-        <tr>
-          <td><input type="email" v-model="email"/></td>
-        </tr>
-        <tr>
-          <th>パスワード：</th>
-        </tr>
-        <tr>
-          <td><input type="password" v-model="password"/></td>
-        </tr>
-    </table>
+    <div class="signin__input">
+      <section>
+        <label>E-mail</label><br>
+        <input type="email" v-model="email"/>
+      </section>
+      <section>
+        <label>パスワード</label><br>
+        <input type="password" v-model="password"/>
+      </section>
+    </div>
     <button @click="signIn">ログイン</button><br>
     <router-link to="Signup">会員登録</router-link>
   </div>
@@ -51,7 +47,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.signup{
-  background-color: tomato;
-}
 </style>

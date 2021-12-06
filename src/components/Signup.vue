@@ -1,32 +1,24 @@
 <template>
   <div class="signup">
     <h1>会員登録</h1>
-    <table>
-        <tr>
-          <th>メールアドレス：</th>
-        </tr>
-        <tr>
-          <td><input type="email" v-model="email"/></td>
-        </tr>
-        <tr>
-          <th>パスワード：</th>
-        </tr>
-        <tr>
-          <td><input type="password" v-model="password"/></td>
-        </tr>
-        <tr>
-          <th>パスワード確認：</th>
-        </tr>
-        <tr>
-          <td><input type="password" v-model="repassword"/></td>
-        </tr>
-        <tr>
-          <th>ユーザー名</th>
-        </tr>
-        <tr>
-          <td><input type="text" v-model="username"/></td>
-        </tr>
-    </table>
+    <div class="signup__input">
+      <section>
+        <label>E-mail</label><br>
+        <input type="email" v-model="email"/>
+      </section>
+      <section>
+        <label>パスワード</label><br>
+        <input type="password" v-model="password"/>
+      </section>
+      <section>
+        <label>パスワード確認用</label><br>
+        <input type="password" v-model="repassword"/>
+      </section>
+      <section>
+        <label>ユーザー名</label><br>
+        <input type="text" v-model="username"/>
+      </section>
+    </div>
     <button @click="signUp">登録</button>
   </div>
 </template>
