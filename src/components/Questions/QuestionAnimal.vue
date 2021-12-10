@@ -2,9 +2,20 @@
 	<main>
 		<div class="bottom-container">
 			<h1 class="bottom-container__ttl">次のうち好きな動物は？</h1>
+			<SelectBtn btnText="kakukeo" />
 		</div>
 	</main>
 </template>
+
+<script>
+import SelectBtn from "@/components/btn/SelectBtn.vue";
+
+export default {
+	components: {
+		SelectBtn,
+	},
+};
+</script>
 
 <style lang="scss" scoped>
 .bottom-container {
