@@ -6,5 +6,6 @@
 </template>
 
 <style lang="scss">
-@import "@/sass/ress";
+@import "@/sass/_ress";
+@import "@/sass/_fontFamily";
 </style>
