@@ -6,5 +6,5 @@
 </template>
 
 <style lang="scss">
-@import "@/sass/ress";
+@charset "utf-8";
 </style>
