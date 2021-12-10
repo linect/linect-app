@@ -1,6 +1,8 @@
 <template>
-  <div class="signup">
-    <h1>ログイン</h1>
+  <div class="signin">
+    <div class="signin__img">
+      <img src="../assets/logo.svg" alt="Linectロゴ画像">
+    </div>
     <div class="signin__input">
       <section>
         <label>E-mail</label><br>
