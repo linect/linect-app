@@ -6,6 +6,8 @@
 </template>
 
 <style lang="scss">
-@import "@/sass/_ress";
-@import "@/sass/_fontFamily";
+@charset "utf-8";
+
+// @import "../src/sass/main";
+// @import "../src/sass/prepends";
 </style>
