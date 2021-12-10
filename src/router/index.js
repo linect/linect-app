@@ -1,21 +1,15 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Signin from "@/components/Signin";
-import Signup from "@/components/Signup";
-import Firstview from "@/views/Firstview";
-import DiagnosisSakura from "@/views/DiagnosisSakura";
+import Signin from "@/views/Signin";
+import Signup from "@/views/Signup";
+import QuestionIndex from "@/views/questions/QuestionIndex";
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Firstview",
-    component: Firstview,
-  },
-  {
-    path: "/DiagnosisSakura",
-    name: "DiagnosisSakura",
-    component: DiagnosisSakura,
+    name: "Signin",
+    component: Signin,
   },
   {
     path: "/Signup",
@@ -23,9 +17,9 @@ const routes = [
     component: Signup,
   },
   {
-    path: "/Signin",
-    name: "Signin",
-    component: Signin,
+    path: "/QuestionIndex",
+    name: "QuestionIndex",
+    component: QuestionIndex,
   },
 ];
 

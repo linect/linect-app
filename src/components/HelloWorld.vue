@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
@@ -59,3 +60,8 @@ a {
   color: #42b983;
 }
 </style>
+=======
+	<div>test</div>
+</template>
+<script></script>
+>>>>>>> 52df0bf32b8e06bae557bae262b9df6465065b87

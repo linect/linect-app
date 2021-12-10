@@ -1,6 +1,7 @@
 <template>
   <div class="signup">
     <h1>ログイン</h1>
+<<<<<<< HEAD:src/components/Signin.vue
     <table>
       <tr>
         <th>メールアドレス：</th>
@@ -16,6 +17,19 @@
       </tr>
     </table>
     <button @click="signIn">ログイン</button><br />
+=======
+    <div class="signin__input">
+      <section>
+        <label>E-mail</label><br>
+        <input type="email" v-model="email"/>
+      </section>
+      <section>
+        <label>パスワード</label><br>
+        <input type="password" v-model="password"/>
+      </section>
+    </div>
+    <button @click="signIn">ログイン</button><br>
+>>>>>>> 52df0bf32b8e06bae557bae262b9df6465065b87:src/views/Signin.vue
     <router-link to="Signup">会員登録</router-link>
   </div>
 </template>
@@ -49,3 +63,9 @@ export default {
   },
 };
 </script>
+<<<<<<< HEAD:src/components/Signin.vue
+=======
+
+<style lang="scss" scoped>
+</style>
+>>>>>>> 52df0bf32b8e06bae557bae262b9df6465065b87:src/views/Signin.vue
