@@ -7,7 +7,4 @@
 
 <style lang="scss">
 @charset "utf-8";
-
-// @import "../src/sass/main";
-// @import "../src/sass/prepends";
 </style>
