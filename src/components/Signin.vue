@@ -46,34 +46,6 @@ export default {
           alert("メールアドレスかパスワードが間違っています");
         });
     },
-<<<<<<< HEAD
   },
 };
 </script>
-=======
-    methods: {
-        signIn: function () {
-          const auth = getAuth();
-          signInWithEmailAndPassword(auth, this.email, this.password)
-            .then((userCredential)=>{
-              const user = userCredential.user;
-              console.log(user)
-              alert("ログインに成功しました")
-            })
-            .catch((error)=>{
-              const errorCode = error.code;
-              const errorMessage = error.message;
-              console.log(errorCode, errorMessage)
-              alert("メールアドレスかパスワードが間違っています")
-            })
-        }
-    }
-}
-</script>
-
-<style lang="scss" scoped>
-.signup{
-  background-color: tomato;
-}
-</style>
->>>>>>> 2373f96a1b77035cdd93e555ff477008b51f7d7f
