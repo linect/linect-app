@@ -1,15 +1,15 @@
 <template>
   <div class="diagnosis">
     <h1 class="diagnosis__img">
-      <img src="../assets/sakura.svg" alt="サクラ" />
+      <img src="../assets/tyuripu.svg" alt="スミレ" />
     </h1>
     <h2 class="diagnosis__title">
-      あなたのタイプは<br /><span>サクラ</span>タイプ！
+      あなたのタイプは<br /><span>チューリップ</span>タイプ！
     </h2>
     <p class="diagnosis__text">
-      感情豊かで思いやりのある方、<br />
-      ですがちょっぴりめんどく<br />
-      さがってしまう時があるかも？？
+      体育会系で笑顔が素敵な方ですとき<br />
+      にはちゃんと周りを見れてメリハリ<br />
+      もある落ち着いた一面もあります!
     </p>
     <DoneBtn />
   </div>

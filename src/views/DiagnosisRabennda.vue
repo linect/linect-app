@@ -1,15 +1,13 @@
 <template>
   <div class="diagnosis">
     <h1 class="diagnosis__img">
-      <img src="../assets/sakura.svg" alt="サクラ" />
+      <img src="../assets/rabennda.svg" alt="スミレ" />
     </h1>
     <h2 class="diagnosis__title">
-      あなたのタイプは<br /><span>サクラ</span>タイプ！
+      あなたのタイプは<br /><span>ラベンダー</span>タイプ！
     </h2>
     <p class="diagnosis__text">
-      感情豊かで思いやりのある方、<br />
-      ですがちょっぴりめんどく<br />
-      さがってしまう時があるかも？？
+      物事に対して積極的でゆっくりコツコツと頑張っていくタイプ。お外で黄昏ている時間が好きだったり？
     </p>
     <DoneBtn />
   </div>

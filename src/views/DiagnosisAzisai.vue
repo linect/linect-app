@@ -1,15 +1,13 @@
 <template>
   <div class="diagnosis">
     <h1 class="diagnosis__img">
-      <img src="../assets/sakura.svg" alt="サクラ" />
+      <img src="../assets/azisai.svg" alt="スミレ" />
     </h1>
     <h2 class="diagnosis__title">
-      あなたのタイプは<br /><span>サクラ</span>タイプ！
+      あなたのタイプは<br /><span>アジサイ</span>タイプ！
     </h2>
     <p class="diagnosis__text">
-      感情豊かで思いやりのある方、<br />
-      ですがちょっぴりめんどく<br />
-      さがってしまう時があるかも？？
+      基本的にほのぼのしていて流れに身<br />をまかすのが得意で落ち着いている<br />印象かも？
     </p>
     <DoneBtn />
   </div>
