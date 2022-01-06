@@ -12,6 +12,7 @@ import DiagnosisRabennda from "@/views/DiagnosisRabennda";
 import DiagnosisPanzi from "@/views/DiagnosisPanzi";
 import DiagnosisAsagao from "@/views/DiagnosisAsagao";
 import DiagnosisTyuripu from "@/views/DiagnosisTyuripu";
+import DiagnosisEnd from "@/views/DiagnosisEnd";
 Vue.use(VueRouter);
 
 const routes = [
@@ -74,6 +75,11 @@ const routes = [
     path: "/DiagnosisTyuripu",
     name: "DiagnosisTyuripu",
     component: DiagnosisTyuripu,
+  },
+  {
+    path: "/DiagnosisEnd",
+    name: "DiagnosisEnd",
+    component: DiagnosisEnd,
   },
 ];
 
