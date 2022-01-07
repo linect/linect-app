@@ -4,13 +4,13 @@
 			<h1 class="bottom-container__ttl">次のうち好きな動物は？</h1>
 			<div class="bottom-container__select-box">
 				<div class="select-btn">
-					<button>犬</button>
+					<button>さくらんぼ</button>
 				</div>
 				<div class="select-btn">
-					<button>猫</button>
+					<button>ぶどう</button>
 				</div>
 				<div class="select-btn last">
-					<button>ウサギ</button>
+					<button>ばなな</button>
 				</div>
 			</div>
 			<div class="next-btn">
