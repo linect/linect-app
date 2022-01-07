@@ -1,30 +1,33 @@
 <template>
   <div class="signup">
-    <h1>会員登録</h1>
-    <div class="signup__input">
-      <section>
-        <label>E-mail</label><br>
-        <input type="email" v-model="email"/>
-      </section>
-      <section>
-        <label>パスワード</label><br>
-        <input type="password" v-model="password"/>
-      </section>
-      <section>
-        <label>パスワード確認用</label><br>
-        <input type="password" v-model="repassword"/>
-      </section>
-      <section>
-        <label>ユーザー名</label><br>
-        <input type="text" v-model="username"/>
-      </section>
+    <SigninHeader/>
+    <div class="signup__wrap">
+      <div class="signup__wrap__input">
+        <section class="signup__wrap__input__box">
+          <label class="signup__wrap__input__box__heading">E-mail</label><br>
+          <input type="email" v-model="email"/>
+        </section>
+        <section class="signup__wrap__input__box">
+          <label class="signup__wrap__input__box__heading">パスワード</label><br>
+          <input type="password" v-model="password"/>
+        </section>
+        <section class="signup__wrap__input__box">
+          <label class="signup__wrap__input__box__heading">パスワード確認用</label><br>
+          <input type="password" v-model="repassword"/>
+        </section>
+        <section class="signup__wrap__input__box">
+          <label class="signup__wrap__input__box__heading">ユーザー名</label><br>
+          <input type="text" v-model="username"/>
+        </section>
+      </div>
+      <button @click="signUp" class="signup__wrap__btn">アカウントを作成</button>
+      <router-link to="/" class="signup__wrap__link">戻る</router-link>
     </div>
-    <button @click="signUp">登録</button>
   </div>
 </template>
 
 <script>
-// import firebase from 'firebase/compat/app';
+import SigninHeader from '@/components/Signin/SigninHeader'
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { collection, addDoc } from "firebase/firestore";
 import { firestore } from "@/main.js";
@@ -36,6 +39,9 @@ export default {
       repassword: '',
       username: '',
       }
+  },
+  components: {
+    SigninHeader,
   },
   methods: {
     signUp: function () {
@@ -62,3 +68,46 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.signup{
+  &__wrap{
+    width: 300px;
+    margin: 0 auto;
+    &__input{
+      &__box{
+        &__heading{
+          color: $inputHeading;
+          font-size: 12px;
+        }
+        input{
+          width: 100%;
+          height: 35px;
+          border: solid 1px $linkBtn;
+          border-radius: 10px;
+          margin-bottom: 18px;
+        }
+      }
+    }
+    &__btn{
+      width: 100%;
+      line-height: 30px;
+      background-color: $singupLink;
+      color: $btnTextColor;
+      font-size: 12px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 10px;
+      margin: 12px 0 18px;
+    }
+    &__link{
+      display: inline-block;
+      width: 100%;
+      color: $inputHeading;
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+}
+</style>
