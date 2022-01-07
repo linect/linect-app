@@ -13,6 +13,7 @@ import DiagnosisPanzi from "@/views/DiagnosisPanzi";
 import DiagnosisAsagao from "@/views/DiagnosisAsagao";
 import DiagnosisTyuripu from "@/views/DiagnosisTyuripu";
 import DiagnosisEnd from "@/views/DiagnosisEnd";
+import CategoryType from "@/views/CategoryType";
 Vue.use(VueRouter);
 
 const routes = [
@@ -80,6 +81,11 @@ const routes = [
     path: "/DiagnosisEnd",
     name: "DiagnosisEnd",
     component: DiagnosisEnd,
+  },
+  {
+    path: "/CategoryType",
+    name: "CategoryType",
+    component: CategoryType,
   },
 ];
 
