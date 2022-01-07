@@ -1,7 +1,7 @@
 <template>
 	<main>
-		<div class="bottom-container">
-			<h1 class="bottom-container__ttl">次の質問にお答えください</h1>
+		<div class="container">
+			<h2 class="container__ttl">あなたのタイプは...</h2>
 		</div>
 	</main>
 </template>
@@ -11,13 +11,11 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.bottom-container {
-	background-color: #fff;
-	height: 50vh;
+.container {
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
 	&__ttl {
 		font-size: 20px;
 		color: $MainTextColor;
