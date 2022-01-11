@@ -1,9 +1,18 @@
 <template>
 	<div id="app">
-		<div id="nav"></div>
+		<!-- <grobalNav /> -->
 		<router-view />
 	</div>
 </template>
+
+<script>
+// import grobalNav from "@/components/grobalNav";
+// export default {
+// 	components: {
+// 		grobalNav,
+// 	}
+// }
+</script>
 
 <style lang="scss">
 @charset "utf-8";

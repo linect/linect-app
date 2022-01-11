@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_25" data-name="長方形 25" width="25" height="25" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_5" data-name="マスクグループ 5" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-user-alt" data-name="Icon awesome-user-alt" d="M11.632,13.087A6.543,6.543,0,1,0,5.089,6.543,6.545,6.545,0,0,0,11.632,13.087Zm5.816,1.454h-2.5a7.91,7.91,0,0,1-6.625,0h-2.5A5.816,5.816,0,0,0,0,20.357v.727a2.182,2.182,0,0,0,2.181,2.181h18.9a2.182,2.182,0,0,0,2.181-2.181v-.727A5.816,5.816,0,0,0,17.449,14.541Z" transform="translate(1.042 0.942)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>
