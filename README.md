@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # linect-app
+=======
+# web
+>>>>>>> fab49caa412f5746276bd67c434614a56cb178e2
 
 ## Project setup
 ```

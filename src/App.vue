@@ -16,4 +16,6 @@
 
 <style lang="scss">
 @charset "utf-8";
+@import "@/sass/_ress";
+@import "@/sass/_fontFamily";
 </style>

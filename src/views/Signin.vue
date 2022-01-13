@@ -19,7 +19,6 @@
         <router-link to="Signup" class="signin__wrap__signup__link">新しいアカウントを作成</router-link>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -27,33 +26,30 @@
 import SigninHeader from '@/components/Signin/SigninHeader'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 export default {
-    data () {
-        return {
-        email: '',
-        password: ''
-        }
+  data() {
+    return {
+      email: "",
+      password: "",
+    };
+  },
+  methods: {
+    signIn: function () {
+      const auth = getAuth();
+      signInWithEmailAndPassword(auth, this.email, this.password)
+        .then((userCredential) => {
+          const user = userCredential.user;
+          console.log(user);
+          alert("ログインに成功しました");
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          console.log(errorCode, errorMessage);
+          alert("メールアドレスかパスワードが間違っています");
+        });
     },
-    components:{
-      SigninHeader,
-    },
-    methods: {
-        signIn: function () {
-          const auth = getAuth();
-          signInWithEmailAndPassword(auth, this.email, this.password)
-            .then((userCredential)=>{
-              const user = userCredential.user;
-              console.log(user)
-              alert("ログインに成功しました")
-            })
-            .catch((error)=>{
-              const errorCode = error.code;
-              const errorMessage = error.message;
-              console.log(errorCode, errorMessage)
-              alert("メールアドレスかパスワードが間違っています")
-            })
-        }
-    }
-}
+  },
+};
 </script>
 
 <style lang="scss" scoped>
