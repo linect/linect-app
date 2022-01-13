@@ -19,6 +19,7 @@
         <router-link to="Signup" class="signin__wrap__signup__link">新しいアカウントを作成</router-link>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -32,14 +33,17 @@ export default {
       password: "",
     };
   },
+  components: {
+    SigninHeader
+  },
   methods: {
     signIn: function () {
       const auth = getAuth();
       signInWithEmailAndPassword(auth, this.email, this.password)
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log(user);
-          alert("ログインに成功しました");
+          console.log(user, "ログイン成功");
+          this.$router.push('/QuestionIndex')
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -69,6 +73,7 @@ export default {
           border: solid 1px $linkBtn;
           border-radius: 10px;
           margin-bottom: 18px;
+          padding-left: 10px;
         }
       }
     }

@@ -54,7 +54,7 @@ export default {
               user: this.username,
             });
             console.log("Document written with ID: ", docRef.id, user, "成功しました");
-            // window.location.href = '';
+            this.$router.push('/QuestionIndex')
           })
         .catch((error)=>{
           const errorCode = error.code;
@@ -86,6 +86,7 @@ export default {
           border: solid 1px $linkBtn;
           border-radius: 10px;
           margin-bottom: 18px;
+          padding-left: 10px;
         }
       }
     }
