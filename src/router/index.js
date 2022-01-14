@@ -14,6 +14,8 @@ import DiagnosisAsagao from "@/views/DiagnosisAsagao";
 import DiagnosisTyuripu from "@/views/DiagnosisTyuripu";
 import DiagnosisEnd from "@/views/DiagnosisEnd";
 import CategoryType from "@/views/CategoryType";
+import CategoryGenre from "@/views/CategoryGenre";
+import CategoryFashion from "@/views/CategoryFashion";
 Vue.use(VueRouter);
 
 const routes = [
@@ -86,6 +88,16 @@ const routes = [
     path: "/CategoryType",
     name: "CategoryType",
     component: CategoryType,
+  },
+  {
+    path: "/CategoryGenre",
+    name: "CategoryGenre",
+    component: CategoryGenre,
+  },
+  {
+    path: "/CategoryFashion",
+    name: "CategoryFashion",
+    component: CategoryFashion,
   },
 ];
 
