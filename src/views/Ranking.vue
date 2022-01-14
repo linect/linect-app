@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <h1>ホーム画面</h1>
-    <GlobalNav/>
-  </div>
+    <div class="ranking">
+        <h1>ランキング画面</h1>
+        <GlobalNav/>
+    </div>
 </template>
 
 <script>

@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <h1>ホーム画面</h1>
-    <GlobalNav/>
-  </div>
+    <div>
+        <h1>ユーザー画面</h1>
+        <GlobalNav/>
+    </div>
 </template>
 
 <script>

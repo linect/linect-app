@@ -14,6 +14,10 @@ import DiagnosisAsagao from "@/views/DiagnosisAsagao";
 import DiagnosisTyuripu from "@/views/DiagnosisTyuripu";
 import DiagnosisEnd from "@/views/DiagnosisEnd";
 import CategoryType from "@/views/CategoryType";
+import Home from '@/views/Home';
+import Search from '@/views/Search';
+import Ranking from '@/views/Ranking';
+import User from '@/views/User';
 Vue.use(VueRouter);
 
 const routes = [
@@ -86,6 +90,26 @@ const routes = [
     path: "/CategoryType",
     name: "CategoryType",
     component: CategoryType,
+  },
+  {
+    path: "/Home",
+    name: "Home",
+    component: Home,
+  },
+  {
+    path: "/Search",
+    name: "Search",
+    component: Search,
+  },
+  {
+    path: "/Ranking",
+    name: "Ranking",
+    component: Ranking,
+  },
+  {
+    path: "/User",
+    name: "User",
+    component: User,
   },
 ];
 
