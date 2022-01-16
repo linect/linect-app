@@ -1,20 +1,10 @@
 <template>
 	<main>
 		<div class="bottom-container">
-			<h1 class="bottom-container__ttl">次の質問にお答えください</h1>
-			<SelectBtn animal="始める" />
+			<h1 class="bottom-container__ttl">次のうち好きな動物は？</h1>
 		</div>
 	</main>
 </template>
-
-<script>
-import SelectBtn from "@/components/btn/SelectBtn";
-export default {
-	components: {
-		SelectBtn,
-	},
-};
-</script>
 
 <style lang="scss" scoped>
 .bottom-container {
@@ -23,7 +13,6 @@ export default {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
 	&__ttl {
 		font-size: 20px;
 		color: $MainTextColor;

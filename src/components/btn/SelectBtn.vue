@@ -1,12 +1,12 @@
 <template>
 	<div class="btn">
-		<button>{{ btnText }}</button>
+		<button>{{ animal }}</button>
 	</div>
 </template>
 
 <script>
 export default {
-	props: ["btnText"],
+	props: ["animal"],
 };
 </script>
 
@@ -18,7 +18,6 @@ export default {
 	border-radius: 8px;
 	& > button {
 		display: block;
-		font-size: 16px;
 		width: 100%;
 		height: 100%;
 	}
