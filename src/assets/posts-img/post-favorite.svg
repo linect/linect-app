@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_35" data-name="長方形 35" width="20" height="20" transform="translate(55 451)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_8" data-name="マスクグループ 8" transform="translate(-55 -451)" clip-path="url(#clip-path)">
+    <path id="Icon_ionic-md-star" data-name="Icon ionic-md-star" d="M13.13,19.506,18.9,23.167l-1.526-6.906,5.091-4.644-6.712-.606L13.13,4.5l-2.622,6.511L3.8,11.617l5.091,4.644L7.362,23.167Z" transform="translate(51.87 447.167)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

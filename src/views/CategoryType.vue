@@ -39,14 +39,12 @@
   </div>
 </template>
 
-<script></script>
-
 <style lang="scss" scoped>
 .category {
   padding: 16px;
   &__type {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     height: 56px;
     width: 100%;
