@@ -2,39 +2,39 @@
 <div>
   <CategoryHeader/>
   <div class="category">
-    <router-link to="" class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/sakura.svg" alt="サクラ" />
       サクラ
     </router-link>
-    <router-link to="" class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/sumire.svg" alt="スミレ" />
       スミレ
     </router-link>
-    <router-link to="" class="category__type e">
+    <router-link to="CategoryGenre" class="category__type e">
       <img src="../assets/himawari.svg" alt="ヒマワリ" />
       ヒマワリ
     </router-link>
-    <router-link to="" class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/azisai.svg" alt="アジサイ" />
       アジサイ
     </router-link>
-    <router-link to="" class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/haibisukasu.svg" alt="ハイビスカス" />
       ハイビスカス
     </router-link>
-    <router-link to="" class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/rabennda.svg" alt="ラベンダー" />
       ラベンダー
     </router-link>
-    <router-link to="" class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/panzi.svg" alt="パンジー" />
       パンジー
     </router-link>
-    <router-link to="" class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/asagao.svg" alt="アサガオ" />
       アサガオ
     </router-link>
-    <router-link class="category__type">
+    <router-link to="CategoryGenre" class="category__type">
       <img src="../assets/tyuripu.svg" alt="チューリップ" />
       チューリップ
     </router-link>
