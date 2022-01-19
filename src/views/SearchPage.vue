@@ -41,16 +41,19 @@
 				<button class="btn-more__txt">様々な投稿を見にいく</button>
 			</div>
 		</div>
+		<GlobalNav/>
 	</div>
 </template>
 
 <script>
+import GlobalNav from '@/components/GlobalNav.vue'
 import UserRankingItem from "@/components/UserRankingItem.vue";
 import RankingType from "@/components/RankingType.vue";
 import GenreItem from "@/components/GenreItem.vue";
 import SearchHeader from "@/components/SearchHeader.vue";
 export default {
 	components: {
+		GlobalNav,
 		UserRankingItem,
 		RankingType,
 		GenreItem,
