@@ -16,6 +16,10 @@ import DiagnosisEnd from "@/views/DiagnosisEnd";
 import CategoryType from "@/views/CategoryType";
 import CategoryGenre from "@/views/CategoryGenre";
 import CategoryFashion from "@/views/CategoryFashion";
+import Home from "@/views/Home";
+import Search from "@/views/Search";
+import Ranking from "@/views/Ranking";
+import User from "@/views/User";
 Vue.use(VueRouter);
 
 const routes = [
@@ -98,6 +102,26 @@ const routes = [
     path: "/CategoryFashion",
     name: "CategoryFashion",
     component: CategoryFashion,
+  },
+  {
+    path: "/Home",
+    name: "Home",
+    component: Home,
+  },
+  {
+    path: "/Search",
+    name: "Search",
+    component: Search,
+  },
+  {
+    path: "/Ranking",
+    name: "Ranking",
+    component: Ranking,
+  },
+  {
+    path: "/User",
+    name: "User",
+    component: User,
   },
 ];
 
