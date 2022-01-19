@@ -14,6 +14,7 @@ import DiagnosisAsagao from "@/views/DiagnosisAsagao";
 import DiagnosisTyuripu from "@/views/DiagnosisTyuripu";
 import DiagnosisEnd from "@/views/DiagnosisEnd";
 import CategoryType from "@/views/CategoryType";
+<<<<<<< HEAD
 import Home from '@/views/Home';
 import Search from '@/views/Search';
 import Ranking from '@/views/Ranking';
@@ -22,6 +23,14 @@ import SearchPage from "@/views/SearchPage";
 import SearchPageRecommend from "@/views/SearchPageRecommend";
 import CategoryGenre from "@/views/CategoryGenre";
 import CategoryFashion from "@/views/CategoryFashion";
+=======
+import CategoryGenre from "@/views/CategoryGenre";
+import CategoryFashion from "@/views/CategoryFashion";
+import Home from "@/views/Home";
+import Search from "@/views/Search";
+import Ranking from "@/views/Ranking";
+import User from "@/views/User";
+>>>>>>> 94269ec18f766c30f0423b45e4ceb9f5e3e76483
 Vue.use(VueRouter);
 
 const routes = [
@@ -96,6 +105,19 @@ const routes = [
     component: CategoryType,
   },
   {
+<<<<<<< HEAD
+=======
+    path: "/CategoryGenre",
+    name: "CategoryGenre",
+    component: CategoryGenre,
+  },
+  {
+    path: "/CategoryFashion",
+    name: "CategoryFashion",
+    component: CategoryFashion,
+  },
+  {
+>>>>>>> 94269ec18f766c30f0423b45e4ceb9f5e3e76483
     path: "/Home",
     name: "Home",
     component: Home,
@@ -114,6 +136,7 @@ const routes = [
     path: "/User",
     name: "User",
     component: User,
+<<<<<<< HEAD
   },
   {
 		path: "/SearchPage",
@@ -134,6 +157,8 @@ const routes = [
     path: "/CategoryFashion",
     name: "CategoryFashion",
     component: CategoryFashion,
+=======
+>>>>>>> 94269ec18f766c30f0423b45e4ceb9f5e3e76483
   },
 ];
 
