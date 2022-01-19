@@ -18,6 +18,8 @@ import Home from '@/views/Home';
 import Search from '@/views/Search';
 import Ranking from '@/views/Ranking';
 import User from '@/views/User';
+import SearchPage from "@/views/SearchPage";
+import SearchPageRecommend from "@/views/SearchPageRecommend";
 Vue.use(VueRouter);
 
 const routes = [
@@ -111,6 +113,16 @@ const routes = [
     name: "User",
     component: User,
   },
+  {
+		path: "/SearchPage",
+		name: "SearchPage",
+		component: SearchPage,
+	},
+	{
+		path: "/SearchPageRecommend",
+		name: "SearchPageRecommend",
+		component: SearchPageRecommend,
+	},
 ];
 
 const router = new VueRouter({
