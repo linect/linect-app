@@ -59,6 +59,7 @@ export default {
     left: 0;
     bottom: 0;
     z-index: 9999;
+    background-color: #fff;
     &__wrap{
         width: 100vw;
         height: 70px;

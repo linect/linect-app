@@ -11,5 +11,6 @@
 @import "@/sass/_fontFamily";
 .app{
 	position: relative;
+	margin-bottom: 70px;
 }
 </style>
