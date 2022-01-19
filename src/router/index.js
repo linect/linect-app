@@ -20,6 +20,8 @@ import Ranking from '@/views/Ranking';
 import User from '@/views/User';
 import SearchPage from "@/views/SearchPage";
 import SearchPageRecommend from "@/views/SearchPageRecommend";
+import CategoryGenre from "@/views/CategoryGenre";
+import CategoryFashion from "@/views/CategoryFashion";
 Vue.use(VueRouter);
 
 const routes = [
@@ -123,6 +125,16 @@ const routes = [
 		name: "SearchPageRecommend",
 		component: SearchPageRecommend,
 	},
+  {
+    path: "/CategoryGenre",
+    name: "CategoryGenre",
+    component: CategoryGenre,
+  },
+  {
+    path: "/CategoryFashion",
+    name: "CategoryFashion",
+    component: CategoryFashion,
+  },
 ];
 
 const router = new VueRouter({
