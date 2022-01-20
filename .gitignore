@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-node_modules
-=======
-=======
->>>>>>> 8de7f27d46fb37c8991b37dbcbef7ad76a8333bf
 .DS_Store
 node_modules
+package.json
+package-look.json
 /dist
+package.json
+package-look.json
 
 
 # local env files
@@ -27,7 +25,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> 8de7f27d46fb37c8991b37dbcbef7ad76a8333bf
