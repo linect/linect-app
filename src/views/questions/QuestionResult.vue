@@ -10,7 +10,8 @@
 export default {
 	mounted:function(){
 		setTimeout(() => {
-			this.$router.push('/DiagnosisSakura');
+			this.$router.push('DiagnosisSakura');
+			// this.$router.push('/ecc/hisimaru/works/linect/DiagnosisSakura')
 		}, 2000);
 	}
 };

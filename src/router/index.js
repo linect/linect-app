@@ -25,133 +25,264 @@ import CategoryGenre from "@/views/CategoryGenre";
 import CategoryFashion from "@/views/CategoryFashion";
 Vue.use(VueRouter);
 
+const displayPath = "/ecc/hisimaru/works/linect/";
+// グローバル
 const routes = [
   {
-    path: "/",
+    path: displayPath,
     name: "Signin",
     component: Signin,
   },
   {
-    path: "/Signup",
+    path: displayPath+"Signup",
     name: "Signup",
     component: Signup,
   },
   {
-    path: "/QuestionTtl",
+    path: displayPath+"QuestionTtl",
     name: "QuestionTtl",
     component: QuestionTtl,
   },
   {
-    path: "/QuestionAnimal",
+    path: displayPath+"QuestionAnimal",
     name: "QuestionAnimal",
     component: QuestionAnimal,
   },
   {
-    path: "/QuestionFruit",
+    path: displayPath+"QuestionFruit",
     name: "QuestionFruit",
     component: QuestionFruit,
   },
   {
-    path: "/QuestionResult",
+    path: displayPath+"QuestionResult",
     name: "QuestionResult",
     component: QuestionResult,
   },
   {
-    path: "/DiagnosisSakura",
+    path: displayPath+"DiagnosisSakura",
     name: "DiagnosisSakura",
     component: DiagnosisSakura,
   },
   {
-    path: "/DiagnosisSumire",
+    path: displayPath+"DiagnosisSumire",
     name: "DiagnosisSumire",
     component: DiagnosisSumire,
   },
   {
-    path: "/DiagnosisHimawari",
+    path: displayPath+"DiagnosisHimawari",
     name: "DiagnosisHimawari",
     component: DiagnosisHimawari,
   },
   {
-    path: "/DiagnosisAzisai",
+    path: displayPath+"DiagnosisAzisai",
     name: "DiagnosisAzisai",
     component: DiagnosisAzisai,
   },
   {
-    path: "/DiagnosisHaibisukasu",
+    path: displayPath+"DiagnosisHaibisukasu",
     name: "DiagnosisHaibisukasu",
     component: DiagnosisHaibisukasu,
   },
   {
-    path: "/DiagnosisRabennda",
+    path: displayPath+"DiagnosisRabennda",
     name: "DiagnosisRabennda",
     component: DiagnosisRabennda,
   },
   {
-    path: "/DiagnosisAsagao",
+    path: displayPath+"DiagnosisAsagao",
     name: "DiagnosisAsagao",
     component: DiagnosisAsagao,
   },
   {
-    path: "/DiagnosisPanzi",
+    path: displayPath+"DiagnosisPanzi",
     name: "DiagnosisPanzi",
     component: DiagnosisPanzi,
   },
   {
-    path: "/DiagnosisTyuripu",
+    path: displayPath+"DiagnosisTyuripu",
     name: "DiagnosisTyuripu",
     component: DiagnosisTyuripu,
   },
   {
-    path: "/DiagnosisEnd",
+    path: displayPath+"DiagnosisEnd",
     name: "DiagnosisEnd",
     component: DiagnosisEnd,
   },
   {
-    path: "/CategoryType",
+    path: displayPath+"CategoryType",
     name: "CategoryType",
     component: CategoryType,
   },
   {
-    path: "/CategoryGenre",
+    path: displayPath+"CategoryGenre",
     name: "CategoryGenre",
     component: CategoryGenre,
   },
   {
-    path: "/CategoryFashion",
+    path: displayPath+"CategoryFashion",
     name: "CategoryFashion",
     component: CategoryFashion,
   },
   {
-    path: "/Home",
+    path: displayPath+"Home",
     name: "Home",
     component: Home,
   },
   {
-    path: "/User",
+    path: displayPath+"User",
     name: "User",
     component: User,
   },
   {
-		path: "/SearchPage",
+		path: displayPath+"SearchPage",
 		name: "SearchPage",
 		component: SearchPage,
 	},
 	{
-		path: "/SearchPageRecommend",
+		path: displayPath+"SearchPageRecommend",
 		name: "SearchPageRecommend",
 		component: SearchPageRecommend,
 	},
   {
-    path: "/CategoryGenre",
+    path: displayPath+"CategoryGenre",
     name: "CategoryGenre",
     component: CategoryGenre,
   },
   {
-    path: "/CategoryFashion",
+    path: displayPath+"CategoryFashion",
     name: "CategoryFashion",
     component: CategoryFashion,
   },
 ];
+
+//ローカル
+// const routes = [
+//   {
+//     path: "/",
+//     name: "Signin",
+//     component: Signin,
+//   },
+//   {
+//     path: "/Signup",
+//     name: "Signup",
+//     component: Signup,
+//   },
+//   {
+//     path: "/QuestionTtl",
+//     name: "QuestionTtl",
+//     component: QuestionTtl,
+//   },
+//   {
+//     path: "/QuestionAnimal",
+//     name: "QuestionAnimal",
+//     component: QuestionAnimal,
+//   },
+//   {
+//     path: "/QuestionFruit",
+//     name: "QuestionFruit",
+//     component: QuestionFruit,
+//   },
+//   {
+//     path: "/QuestionResult",
+//     name: "QuestionResult",
+//     component: QuestionResult,
+//   },
+//   {
+//     path: "/DiagnosisSakura",
+//     name: "DiagnosisSakura",
+//     component: DiagnosisSakura,
+//   },
+//   {
+//     path: "/DiagnosisSumire",
+//     name: "DiagnosisSumire",
+//     component: DiagnosisSumire,
+//   },
+//   {
+//     path: "/DiagnosisHimawari",
+//     name: "DiagnosisHimawari",
+//     component: DiagnosisHimawari,
+//   },
+//   {
+//     path: "/DiagnosisAzisai",
+//     name: "DiagnosisAzisai",
+//     component: DiagnosisAzisai,
+//   },
+//   {
+//     path: "/DiagnosisHaibisukasu",
+//     name: "DiagnosisHaibisukasu",
+//     component: DiagnosisHaibisukasu,
+//   },
+//   {
+//     path: "/DiagnosisRabennda",
+//     name: "DiagnosisRabennda",
+//     component: DiagnosisRabennda,
+//   },
+//   {
+//     path: "/DiagnosisAsagao",
+//     name: "DiagnosisAsagao",
+//     component: DiagnosisAsagao,
+//   },
+//   {
+//     path: "/DiagnosisPanzi",
+//     name: "DiagnosisPanzi",
+//     component: DiagnosisPanzi,
+//   },
+//   {
+//     path: "/DiagnosisTyuripu",
+//     name: "DiagnosisTyuripu",
+//     component: DiagnosisTyuripu,
+//   },
+//   {
+//     path: "/DiagnosisEnd",
+//     name: "DiagnosisEnd",
+//     component: DiagnosisEnd,
+//   },
+//   {
+//     path: "/CategoryType",
+//     name: "CategoryType",
+//     component: CategoryType,
+//   },
+//   {
+//     path: "/CategoryGenre",
+//     name: "CategoryGenre",
+//     component: CategoryGenre,
+//   },
+//   {
+//     path: "/CategoryFashion",
+//     name: "CategoryFashion",
+//     component: CategoryFashion,
+//   },
+//   {
+//     path: "/Home",
+//     name: "Home",
+//     component: Home,
+//   },
+//   {
+//     path: "/User",
+//     name: "User",
+//     component: User,
+//   },
+//   {
+// 		path: "/SearchPage",
+// 		name: "SearchPage",
+// 		component: SearchPage,
+// 	},
+// 	{
+// 		path: "/SearchPageRecommend",
+// 		name: "SearchPageRecommend",
+// 		component: SearchPageRecommend,
+// 	},
+//   {
+//     path: "/CategoryGenre",
+//     name: "CategoryGenre",
+//     component: CategoryGenre,
+//   },
+//   {
+//     path: "/CategoryFashion",
+//     name: "CategoryFashion",
+//     component: CategoryFashion,
+//   },
+// ];
 
 const router = new VueRouter({
   mode: "history",

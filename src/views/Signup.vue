@@ -54,7 +54,8 @@ export default {
               user: this.username,
             });
             console.log("Document written with ID: ", docRef.id, user, "成功しました");
-            this.$router.push('/QuestionTtl')
+            this.$router.push('QuestionTtl')
+            // this.$router.push('/ecc/hisimaru/works/linect/QuestionTtl')
           })
         .catch((error)=>{
           const errorCode = error.code;

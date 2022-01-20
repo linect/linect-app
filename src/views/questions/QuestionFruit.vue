@@ -15,7 +15,7 @@
 				</div>
 			</div>
 			<div class="next-btn">
-				<router-link to="/QuestionResult" class="next-btn__link">次へ</router-link>
+				<router-link to="QuestionResult" class="next-btn__link">次へ</router-link>
 			</div>
 			<p class="back">戻る</p>
 		</div>

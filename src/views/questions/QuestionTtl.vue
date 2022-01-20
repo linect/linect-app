@@ -15,7 +15,8 @@ export default {
 	},
 	mounted:function(){
 		setTimeout(() => {
-			this.$router.push('/QuestionAnimal');
+			this.$router.push('QuestionAnimal');
+			// this.$router.push('/ecc/hisimaru/works/linect/QuestionAnimal')
 		}, 2000);
 	}
 };
