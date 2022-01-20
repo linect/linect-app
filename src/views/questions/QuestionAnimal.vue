@@ -1,20 +1,21 @@
 <template>
 	<main>
+		<QuestionHeader />
 		<div class="bottom-container">
 			<h1 class="bottom-container__ttl">次のうち好きな動物は？</h1>
 			<div class="bottom-container__select-box">
 				<div class="select-btn">
-					<button>さくらんぼ</button>
+					<button>犬</button>
 				</div>
 				<div class="select-btn">
-					<button>ぶどう</button>
+					<button>猫</button>
 				</div>
 				<div class="select-btn last">
-					<button>ばなな</button>
+					<button>ウサギ</button>
 				</div>
 			</div>
 			<div class="next-btn">
-				<button>次へ</button>
+				<router-link to="/QuestionFruit" class="next-btn__link">次へ</router-link>
 			</div>
 			<p class="back">戻る</p>
 		</div>
@@ -22,7 +23,12 @@
 </template>
 
 <script>
-export default {};
+import QuestionHeader from "@/components/Questions/QuestionHeader.vue";
+export default {
+	components: {
+		QuestionHeader,
+	}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -68,16 +74,22 @@ export default {};
 		text-align: center;
 		line-height: 50px;
 		margin-top: 20px;
-		font-size: 14px;
-		button {
+		background-color: #D5D1CE;
+		&__link {
 			display: block;
 			width: 100%;
 			height: 100%;
+			text-decoration: none;
+			color: #fff;
+			font-size: 14px;
 		}
 	}
 	.back {
 		margin-top: 16px;
 		font-size: 12px;
 	}
+}
+.btncolor{
+	background-color: #F4B9BA;
 }
 </style>

@@ -43,7 +43,7 @@ export default {
         .then((userCredential) => {
           const user = userCredential.user;
           console.log(user, "ログイン成功");
-          this.$router.push('/QuestionIndex')
+          this.$router.push('/QuestionTtl')
         })
         .catch((error) => {
           const errorCode = error.code;

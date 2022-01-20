@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="ranking">
 		<SearchHeader />
 		<div class="ranking-wrap">
 			<p class="ranking-wrap__type">タイプごとのユーザーランキング</p>
@@ -92,6 +92,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.ranking{
+	margin-bottom: 70px;
+}
 .ranking-wrap {
 	width: 100%;
 	padding-top: 40px;

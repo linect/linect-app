@@ -2,7 +2,10 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Signin from "@/views/Signin";
 import Signup from "@/views/Signup";
-import QuestionIndex from "@/views/questions/QuestionIndex";
+import QuestionTtl from "@/views/questions/QuestionTtl";
+import QuestionAnimal from "@/views/questions/QuestionAnimal";
+import QuestionFruit from "@/views/questions/QuestionFruit";
+import QuestionResult from "@/views/questions/QuestionResult";
 import DiagnosisSakura from "@/views/DiagnosisSakura";
 import DiagnosisSumire from "@/views/DiagnosisSumire";
 import DiagnosisHimawari from "@/views/DiagnosisHimawari";
@@ -14,23 +17,12 @@ import DiagnosisAsagao from "@/views/DiagnosisAsagao";
 import DiagnosisTyuripu from "@/views/DiagnosisTyuripu";
 import DiagnosisEnd from "@/views/DiagnosisEnd";
 import CategoryType from "@/views/CategoryType";
-<<<<<<< HEAD
 import Home from '@/views/Home';
-import Search from '@/views/Search';
-import Ranking from '@/views/Ranking';
 import User from '@/views/User';
 import SearchPage from "@/views/SearchPage";
 import SearchPageRecommend from "@/views/SearchPageRecommend";
 import CategoryGenre from "@/views/CategoryGenre";
 import CategoryFashion from "@/views/CategoryFashion";
-=======
-import CategoryGenre from "@/views/CategoryGenre";
-import CategoryFashion from "@/views/CategoryFashion";
-import Home from "@/views/Home";
-import Search from "@/views/Search";
-import Ranking from "@/views/Ranking";
-import User from "@/views/User";
->>>>>>> 94269ec18f766c30f0423b45e4ceb9f5e3e76483
 Vue.use(VueRouter);
 
 const routes = [
@@ -45,9 +37,24 @@ const routes = [
     component: Signup,
   },
   {
-    path: "/QuestionIndex",
-    name: "QuestionIndex",
-    component: QuestionIndex,
+    path: "/QuestionTtl",
+    name: "QuestionTtl",
+    component: QuestionTtl,
+  },
+  {
+    path: "/QuestionAnimal",
+    name: "QuestionAnimal",
+    component: QuestionAnimal,
+  },
+  {
+    path: "/QuestionFruit",
+    name: "QuestionFruit",
+    component: QuestionFruit,
+  },
+  {
+    path: "/QuestionResult",
+    name: "QuestionResult",
+    component: QuestionResult,
   },
   {
     path: "/DiagnosisSakura",
@@ -105,8 +112,6 @@ const routes = [
     component: CategoryType,
   },
   {
-<<<<<<< HEAD
-=======
     path: "/CategoryGenre",
     name: "CategoryGenre",
     component: CategoryGenre,
@@ -117,26 +122,14 @@ const routes = [
     component: CategoryFashion,
   },
   {
->>>>>>> 94269ec18f766c30f0423b45e4ceb9f5e3e76483
     path: "/Home",
     name: "Home",
     component: Home,
   },
   {
-    path: "/Search",
-    name: "Search",
-    component: Search,
-  },
-  {
-    path: "/Ranking",
-    name: "Ranking",
-    component: Ranking,
-  },
-  {
     path: "/User",
     name: "User",
     component: User,
-<<<<<<< HEAD
   },
   {
 		path: "/SearchPage",
@@ -157,8 +150,6 @@ const routes = [
     path: "/CategoryFashion",
     name: "CategoryFashion",
     component: CategoryFashion,
-=======
->>>>>>> 94269ec18f766c30f0423b45e4ceb9f5e3e76483
   },
 ];
 

@@ -1,5 +1,6 @@
 <template>
 	<main>
+		<QuestionHeader />
 		<div class="bottom-container">
 			<h1 class="bottom-container__ttl">次の質問にお答えください</h1>
 		</div>
@@ -7,7 +8,17 @@
 </template>
 
 <script>
-export default {};
+import QuestionHeader from "@/components/Questions/QuestionHeader.vue";
+export default {
+	components: {
+		QuestionHeader,
+	},
+	mounted:function(){
+		setTimeout(() => {
+			this.$router.push('/QuestionAnimal');
+		}, 2000);
+	}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -22,5 +33,19 @@ export default {};
 		font-size: 20px;
 		color: $MainTextColor;
 	}
+}
+.v-enter-active {
+	transition: opacity 3s;
+	opacity: 0;
+}
+.v-enter-to {
+	opacity: 1;
+}
+.v-enter-active {
+	transition: opacity 3s;
+	opacity: 0;
+}
+.v-enter-to {
+	opacity: 1;
 }
 </style>

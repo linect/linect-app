@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="fashion">
+    <FashionHeader/>
     <ul class="tab">
       <li class="tab__List">
         <button @click="changeTab(1)" class="a">サクラ</button>
@@ -560,15 +561,22 @@
         </div>
       </li>
     </ul>
+    <GlobalNav/>
   </div>
 </template>
 
 <script>
+import GlobalNav from '@/components/GlobalNav.vue'
+import FashionHeader from '@/components/FashionHeader.vue'
 export default {
   data() {
     return {
       onclick: 1,
     };
+  },
+  components:{
+    GlobalNav,
+    FashionHeader,
   },
   methods: {
     changeTab(value) {
@@ -579,6 +587,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.fashion{
+  margin-bottom: 70px;
+}
 .tab {
   display: flex;
   align-items: center;

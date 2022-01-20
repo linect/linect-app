@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="genre">
   <GenreHeader/>
   <div class="category">
     <router-link to="CategoryFashion" class="category__genre">
@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.genre{
+  margin-bottom: 70px;
+}
 .category {
   padding: 16px;
   &__genre {

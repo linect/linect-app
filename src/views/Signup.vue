@@ -54,7 +54,7 @@ export default {
               user: this.username,
             });
             console.log("Document written with ID: ", docRef.id, user, "成功しました");
-            this.$router.push('/QuestionIndex')
+            this.$router.push('/QuestionTtl')
           })
         .catch((error)=>{
           const errorCode = error.code;

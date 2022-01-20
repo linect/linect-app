@@ -1,11 +1,11 @@
 <template>
 	<div>
 		<QuestionHeader />
-		<transition>
+		<keep-alive>
 			<QuestionTtl v-if="questionState === 'index'" />
 			<QuestionAnimal v-if="questionState === 'q1'" />
 			<QuestionFruit v-if="questionState === 'q2'" />
-		</transition>
+		</keep-alive>
 	</div>
 </template>
 
@@ -24,9 +24,12 @@ export default {
 	},
 	data() {
 		return {
-			questionState: "q2",
+			questionState: "index",
 		};
 	},
+	computed:{
+
+	}
 };
 </script>
 

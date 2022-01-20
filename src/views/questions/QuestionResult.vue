@@ -7,7 +7,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+	mounted:function(){
+		setTimeout(() => {
+			this.$router.push('/DiagnosisSakura');
+		}, 2000);
+	}
+};
 </script>
 
 <style lang="scss" scoped>

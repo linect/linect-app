@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="type">
   <CategoryHeader/>
   <div class="category">
     <router-link to="CategoryGenre" class="category__type">
@@ -55,6 +55,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.type{
+  margin-bottom: 70px;
+}
 .category {
   padding: 16px;
   &__type {
