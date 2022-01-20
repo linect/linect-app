@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_31" data-name="長方形 31" width="20" height="20" transform="translate(117 843.991)" fill="#f76464"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_6" data-name="マスクグループ 6" transform="translate(-117 -843.991)" clip-path="url(#clip-path)">
+    <path id="Icon_awesome-heart" data-name="Icon awesome-heart" d="M16.967,3.349a5.094,5.094,0,0,0-6.848.489l-.723.73-.723-.73a5.094,5.094,0,0,0-6.848-.489,5.091,5.091,0,0,0-.363,7.474l7.1,7.183a1.167,1.167,0,0,0,1.663,0l7.1-7.183a5.088,5.088,0,0,0-.36-7.474Z" transform="translate(117.672 844.428)" fill="none" stroke="#f76464" stroke-width="1"/>
+  </g>
+</svg>
